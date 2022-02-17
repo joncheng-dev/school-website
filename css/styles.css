@@ -1,4 +1,19 @@
 
+body {
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  color: #3F4449;
+  overflow-x: hidden;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 
 .jumbotron {
   background-color:white;
@@ -20,4 +35,22 @@
   top: 0;
   bottom: 0;
   z-index: -1;
+}
+
+.col-md-12 h3 {
+  margin-top: 70px;
+  text-align: center;
+  text-transform:uppercase;
+}
+
+.col-md-12 h5 {
+  text-align: center;
+}
+
+.col-md-6 {
+  margin-top: 70px;
+}
+
+.col-md-6 p {
+  font-size: 21px;
 }
