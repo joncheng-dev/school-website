@@ -54,3 +54,12 @@ p {
 .col-md-6 p {
   font-size: 21px;
 }
+
+h2, h3 {
+  text-align: center;
+  background-color: #333333;
+  color: #f2f2f2;
+}
+footer {
+  height: 300px;
+}
